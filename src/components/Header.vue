@@ -8,10 +8,6 @@
 <script>
 import Button from './TheButton.vue'
 export default {
-  data () {
-    return {
-    }
-  },
   methods: {
   },
   computed:{

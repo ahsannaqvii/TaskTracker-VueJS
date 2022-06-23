@@ -12,7 +12,6 @@ This is what we call two-way data binding. -->
     <div class="form-control">
       <label>Day & Time</label>
             <!-- v model se bind hugaya day data  -->
-
       <input
         type="text"
         v-model="day"
