@@ -1,0 +1,25 @@
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+
+2.<!-- What is v-model in Vue.js? One way to bind data in Vue.js is to use the v-model directive. 
+When attached to an input, this model monitors the input and updates the given template once 
+there is a change in the model. It also updates the data model if there is a change in the template. 
+This is what we call two-way data binding. -->
+
+3.  <!-- The v-show directive is a Vue.js directive used to toggle the display CSS property of a element with our data. 
+  If the data is true it will make it visible else it will make it invisible. -->
+
+4.  <!-- Agar mkabhi tasks change hua tou v bind -->
+
+FOR PRODUCTION ------
+Npm run build
+npm run serve
+serve -s dost
+
+JSON SERVER FOR DATA
+npm i json-server
+IT IS A FAKE REST API.
+json-server --watch db.json
+Package.json : add in scripts - >     "backend":"json-server --watch db.json --port 5000  "
+npm run backend. 
+
+---------------------------------------------------------
